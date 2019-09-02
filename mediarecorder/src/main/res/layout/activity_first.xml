@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstActivity">
+
+    <Button
+        android:id="@+id/btn_open21After"
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="open21Video"
+        android:text="21版本之后的模式"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="视频压缩"
+        app:layout_constraintTop_toBottomOf="@id/btn_open21After"
+        android:onClick="compression"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/showIv"
+        app:layout_constraintTop_toBottomOf="@id/btn_open21After"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</androidx.constraintlayout.widget.ConstraintLayout>

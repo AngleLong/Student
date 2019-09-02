@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.angle.alarmmanager">
+
+    <application>
+        <activity android:name=".SecondActivity"></activity>
+        <!-- 这里的process一定要加否则不会生效的 -->
+        <receiver
+            android:name=".AlarmReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:process=":remote" />
+
+        <activity android:name=".AlarmManagerActivity" />
+    </application>
+
+</manifest>

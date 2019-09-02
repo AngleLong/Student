@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.angle.mediarecorder">
+
+    <application>
+        <activity android:name=".MainLibActivity"></activity>
+        <activity android:name=".FirstActivity" />
+        <activity android:name=".CameraActivity" />
+        <activity android:name=".NewCameraActivity" />
+        <activity android:name=".MediaActivity" />
+    </application>
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+</manifest>

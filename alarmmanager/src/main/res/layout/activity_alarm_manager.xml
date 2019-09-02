@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AlarmManagerActivity">
+
+    <Button
+        android:id="@+id/openActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="openActivity"
+        android:text="6秒后打开一个Activity"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="openRemind"
+        android:text="固定时间后提醒"
+        app:layout_constraintTop_toBottomOf="@id/openActivity" />
+</androidx.constraintlayout.widget.ConstraintLayout>
