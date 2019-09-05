@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#223344"
+    tools:context=".PatternLockActivity">
+
+    <com.andrognito.patternlockview.PatternLockView
+        android:id="@+id/pattern_lock_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:aspectRatio="square"
+        app:aspectRatioEnabled="true"
+        app:correctStateColor="@color/pomegranate"
+        app:dotAnimationDuration="200"
+        app:dotCount="3"
+        app:dotNormalSize="24dp"
+        app:dotSelectedSize="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:normalStateColor="@color/white"
+        app:pathEndAnimationDuration="100"
+        app:pathWidth="5dp"
+        app:wrongStateColor="@color/colorPrimaryDark" />
+</androidx.constraintlayout.widget.ConstraintLayout>
