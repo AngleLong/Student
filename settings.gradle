@@ -1,1 +1,1 @@
-include ':app', ':alarmmanager', ':mediarecorder', ':videocompressor', ':java'
+include ':app', ':alarmmanager', ':mediarecorder', ':videocompressor', ':java', ':safety', ':view'

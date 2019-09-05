@@ -1,13 +1,12 @@
 package com.angle.student;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.Debug;
 import android.view.View;
 
-import com.angle.mediarecorder.MainLibActivity;
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.angle.view.ConstraintLayoutActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -18,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void alarmClick(View view) {
-        Intent intent = new Intent(this, MainLibActivity.class);
+        Intent intent = new Intent(this, ConstraintLayoutActivity.class);
         startActivity(intent);
     }
 }
