@@ -3,7 +3,9 @@
     package="com.angle.view">
 
     <application>
-        <activity android:name=".ConstraintLayoutActivity"></activity>
+        <activity android:name=".AnimationViewActivity"></activity>
+        <activity android:name=".AnimationActivity" />
+        <activity android:name=".ConstraintLayoutActivity" />
     </application>
 
 </manifest>
