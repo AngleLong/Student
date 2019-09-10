@@ -66,7 +66,7 @@ public class ConstraintLayoutActivity extends AppCompatActivity {
         mButton1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(ConstraintLayoutActivity.this,AnimationActivity.class));
+                startActivity(new Intent(ConstraintLayoutActivity.this, AnimationActivity.class));
             }
         });
     }

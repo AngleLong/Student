@@ -7,7 +7,6 @@ import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.angle.view.AnimationViewActivity;
-import com.angle.view.ConstraintLayoutActivity;
 
 public class MainActivity extends AppCompatActivity {
 
