@@ -40,11 +40,11 @@ public class ConstraintLayoutActivity extends AppCompatActivity {
         //高度包裹内容
         constraintSet.constrainHeight(button1.getId(), ConstraintLayout.LayoutParams.WRAP_CONTENT);
         //相应的约束
-        constraintSet.connect(button1.getId(), ConstraintSet.TOP, ConstraintSet.PARENT_ID, ConstraintSet.TOP);
+        constraintSet.connect(button1.getId(), ConstraintSet.BOTTOM, ConstraintSet.PARENT_ID, ConstraintSet.BOTTOM);
         constraintSet.connect(button1.getId(), ConstraintSet.LEFT, ConstraintSet.PARENT_ID, ConstraintSet.LEFT);
         constraintSet.connect(button1.getId(), ConstraintSet.RIGHT, ConstraintSet.PARENT_ID, ConstraintSet.RIGHT);
         constraintSet.applyTo(rootCL);
 
-        TransitionManager.
+//        TransitionManager.
     }
 }

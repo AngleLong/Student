@@ -6,7 +6,7 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.angle.view.ConstraintLayoutActivity;
+import com.angle.java.DesActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void alarmClick(View view) {
-        Intent intent = new Intent(this, ConstraintLayoutActivity.class);
+        Intent intent = new Intent(this, DesActivity.class);
         startActivity(intent);
     }
 }
