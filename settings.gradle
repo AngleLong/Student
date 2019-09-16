@@ -1,8 +1,7 @@
-include ':app', ':Compiler',
+include ':app', ':annotation', ':factory-compiler',
         ':alarmmanager',
         ':mediarecorder',
         ':videocompressor',
         ':java',
         ':safety',
-        ':view',
-        ':Annotation'
+        ':view'

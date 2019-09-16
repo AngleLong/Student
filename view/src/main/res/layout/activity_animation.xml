@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/applyButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Apply"
+        android:onClick="applyClick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/resetButton" />
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:onClick="resetClick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/applyButton"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="69dp"
+        android:background="@color/color_00574B"
+        android:text="Button 1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="136dp"
+        android:layout_marginRight="8dp"
+        android:background="@color/color_008577"
+        android:text="Button 2"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintLeft_toRightOf="@+id/button1"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="88dp"
+        android:layout_marginLeft="88dp"
+        android:layout_marginTop="102dp"
+        android:background="@color/color_D81B60"
+        android:text="Button 3"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

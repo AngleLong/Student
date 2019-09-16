@@ -7,6 +7,8 @@ public class Test {
         System.out.println(name.toString());
         setName(name);
         System.out.println(name.toString());
+
+        System.out.println(Name.class.getCanonicalName());
     }
 
     public static void setName(Name name) {

@@ -6,7 +6,7 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.angle.java.DesActivity;
+import com.angle.view.AnimationViewActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void alarmClick(View view) {
-        Intent intent = new Intent(this, DesActivity.class);
+        Intent intent = new Intent(this, AnimationViewActivity.class);
         startActivity(intent);
     }
 }

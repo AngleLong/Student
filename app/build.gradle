@@ -17,6 +17,11 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
 }
 
 dependencies {
@@ -35,6 +40,6 @@ dependencies {
     implementation project(path: ':java')
 
     //关于APT得一些技术
-    implementation project(':Annotation')
-    annotationProcessor project(':Compiler')
+    implementation project(path:':annotation')
+    annotationProcessor project(':factory-compiler')
 }
