@@ -73,7 +73,7 @@ public class FactoryGroupedClasses {
                 .endControlFlow();
 
         // 生成项目预设
-        for (FactoryAnnotatedClassst item : itemsMap.values()) {
+        for (FactoryAnnotatedClass item : itemsMap.values()) {
             method.beginControlFlow("if ($S.equals(id))", item.getId())
                     .addStatement("return new $L()", item.getAnnotatedClassElement().getQualifiedName().toString())
                     .endControlFlow();
